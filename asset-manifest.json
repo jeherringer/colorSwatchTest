@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/colorSwatchProject/static/css/main.c46ef3c2.chunk.css",
+    "main.js": "/colorSwatchProject/static/js/main.b3b5f95f.chunk.js",
+    "main.js.map": "/colorSwatchProject/static/js/main.b3b5f95f.chunk.js.map",
+    "runtime-main.js": "/colorSwatchProject/static/js/runtime-main.6ae5cf67.js",
+    "runtime-main.js.map": "/colorSwatchProject/static/js/runtime-main.6ae5cf67.js.map",
+    "static/js/2.12d70120.chunk.js": "/colorSwatchProject/static/js/2.12d70120.chunk.js",
+    "static/js/2.12d70120.chunk.js.map": "/colorSwatchProject/static/js/2.12d70120.chunk.js.map",
+    "index.html": "/colorSwatchProject/index.html",
+    "precache-manifest.a5e4a0df3f1f1b871cc79dff99790933.js": "/colorSwatchProject/precache-manifest.a5e4a0df3f1f1b871cc79dff99790933.js",
+    "service-worker.js": "/colorSwatchProject/service-worker.js",
+    "static/css/main.c46ef3c2.chunk.css.map": "/colorSwatchProject/static/css/main.c46ef3c2.chunk.css.map",
+    "static/js/2.12d70120.chunk.js.LICENSE.txt": "/colorSwatchProject/static/js/2.12d70120.chunk.js.LICENSE.txt",
+    "static/media/logo-symbol.svg": "/colorSwatchProject/static/media/logo-symbol.629f0661.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ae5cf67.js",
+    "static/js/2.12d70120.chunk.js",
+    "static/css/main.c46ef3c2.chunk.css",
+    "static/js/main.b3b5f95f.chunk.js"
+  ]
+}
