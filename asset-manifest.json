@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/colorSwatchProject/static/css/main.c46ef3c2.chunk.css",
-    "main.js": "/colorSwatchProject/static/js/main.b3b5f95f.chunk.js",
-    "main.js.map": "/colorSwatchProject/static/js/main.b3b5f95f.chunk.js.map",
-    "runtime-main.js": "/colorSwatchProject/static/js/runtime-main.6ae5cf67.js",
-    "runtime-main.js.map": "/colorSwatchProject/static/js/runtime-main.6ae5cf67.js.map",
-    "static/js/2.12d70120.chunk.js": "/colorSwatchProject/static/js/2.12d70120.chunk.js",
-    "static/js/2.12d70120.chunk.js.map": "/colorSwatchProject/static/js/2.12d70120.chunk.js.map",
-    "index.html": "/colorSwatchProject/index.html",
-    "precache-manifest.a5e4a0df3f1f1b871cc79dff99790933.js": "/colorSwatchProject/precache-manifest.a5e4a0df3f1f1b871cc79dff99790933.js",
-    "service-worker.js": "/colorSwatchProject/service-worker.js",
-    "static/css/main.c46ef3c2.chunk.css.map": "/colorSwatchProject/static/css/main.c46ef3c2.chunk.css.map",
-    "static/js/2.12d70120.chunk.js.LICENSE.txt": "/colorSwatchProject/static/js/2.12d70120.chunk.js.LICENSE.txt",
-    "static/media/logo-symbol.svg": "/colorSwatchProject/static/media/logo-symbol.629f0661.svg"
+    "main.css": "/colorSwatchTest/static/css/main.c46ef3c2.chunk.css",
+    "main.js": "/colorSwatchTest/static/js/main.4fdb6f51.chunk.js",
+    "main.js.map": "/colorSwatchTest/static/js/main.4fdb6f51.chunk.js.map",
+    "runtime-main.js": "/colorSwatchTest/static/js/runtime-main.63c4e217.js",
+    "runtime-main.js.map": "/colorSwatchTest/static/js/runtime-main.63c4e217.js.map",
+    "static/js/2.d17bb8cc.chunk.js": "/colorSwatchTest/static/js/2.d17bb8cc.chunk.js",
+    "static/js/2.d17bb8cc.chunk.js.map": "/colorSwatchTest/static/js/2.d17bb8cc.chunk.js.map",
+    "index.html": "/colorSwatchTest/index.html",
+    "precache-manifest.0ed691b03d51f4835a902291df777a53.js": "/colorSwatchTest/precache-manifest.0ed691b03d51f4835a902291df777a53.js",
+    "service-worker.js": "/colorSwatchTest/service-worker.js",
+    "static/css/main.c46ef3c2.chunk.css.map": "/colorSwatchTest/static/css/main.c46ef3c2.chunk.css.map",
+    "static/js/2.d17bb8cc.chunk.js.LICENSE.txt": "/colorSwatchTest/static/js/2.d17bb8cc.chunk.js.LICENSE.txt",
+    "static/media/logo-symbol.svg": "/colorSwatchTest/static/media/logo-symbol.629f0661.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6ae5cf67.js",
-    "static/js/2.12d70120.chunk.js",
+    "static/js/runtime-main.63c4e217.js",
+    "static/js/2.d17bb8cc.chunk.js",
     "static/css/main.c46ef3c2.chunk.css",
-    "static/js/main.b3b5f95f.chunk.js"
+    "static/js/main.4fdb6f51.chunk.js"
   ]
 }
