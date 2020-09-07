@@ -42,7 +42,7 @@ mongoose.connect(uri, {
 .catch(err => console.log(err))
 
 // an api path to recieve JSON data of the colors
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
     colorSwatch.find({  })
         .then((data) => {
             res.json(data);
