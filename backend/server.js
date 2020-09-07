@@ -41,7 +41,7 @@ mongoose.connect(uri, {
 })
 .catch(err => console.log(err))
 
-app.use(express.static('../public'));
+app.use(express.static('../src/index.js'));
 
 // an api path to recieve JSON data of the colors
 app.get('/api', cors(), (req, res) => {
