@@ -201,6 +201,11 @@ class ContentRight extends React.Component {
            method: 'GET',
            async: true,
            port: 3000,
+           headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+              }
+           
         }).then(res => res.json())
             .then(json => {
                console.log(json) 
