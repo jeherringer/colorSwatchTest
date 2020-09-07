@@ -197,7 +197,7 @@ class ContentRight extends React.Component {
         var connectDiv = document.getElementById("detailedDiv")
         */
         // run a normal fetch GET call to retrieve our data
-        fetch('https://fat-pug-91.loca.lt/api', {
+        fetch('https://fat-pug-91.loca.lt/', {
            method: 'GET',
            async: true,
            port: 3000,
