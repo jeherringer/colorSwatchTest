@@ -42,7 +42,7 @@ mongoose.connect(uri, {
 .catch(err => console.log(err))
 
 // an api path to recieve JSON data of the colors
-app.get('https://fat-pug-91.loca.lt/', cors(), (req, res) => {
+app.get('/', cors(), (req, res) => {
     colorSwatch.find({  })
         .then((data) => {
             res.json(data);
