@@ -44,10 +44,6 @@ mongoose.connect(uri, {
 
 app.use(express.static(path.join(__dirname, '../build')));
 
-app.get('*', (req,res) =>{
-    res.sendFile(path.join(__dirname+'../build/index.html'));
-});
-
 // an api path to recieve JSON data of the colors
 app.get('/', cors(), (req, res) => {
     colorSwatch.find({  })
