@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import $ from 'jquery';
-
+/*
 const colorNameArray = [];
 const colorGroupArray = [];
+*/
 // Styles for all the right-side content
 const Styles = styled.div`;
 
@@ -191,8 +192,10 @@ class ContentRight extends React.Component {
       
    componentDidMount  = () => {
         // grab the div to append colorSwatches too
+        /*
         var cardDiv = document.getElementById("cardDiv");
         var connectDiv = document.getElementById("detailedDiv")
+        */
         // run a normal fetch GET call to retrieve our data
         fetch('/', {
            method: 'GET',
@@ -201,6 +204,7 @@ class ContentRight extends React.Component {
         }).then(res => res.text())
             .then(text => {
                console.log(text) 
+               /*
                 // going to loop through our data and add what we need to an empty array
                 for (let i = 0; i < 100; i++) {
                     colorNameArray.push(json[i]);
@@ -315,9 +319,11 @@ class ContentRight extends React.Component {
                         })
                         
                     })
+                    
                 };
-             
+             */
             });
+            
             // messy way to show/hide based on classes
             $("#pageOne").click(function() {
                 $(".groupOne").show();
@@ -421,6 +427,7 @@ class ContentRight extends React.Component {
         // call our render method with our loaded state included  
         this.setState({ loaded: true });
     }
+    
     
      
     render () {
