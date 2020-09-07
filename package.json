@@ -17,10 +17,11 @@
     "react-scripts": "3.4.3",
     "save-dev": "0.0.1-security"
   },
+  "engines": {
+    "node": "v12.16.3"
+  }
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
