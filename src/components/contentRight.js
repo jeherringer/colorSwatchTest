@@ -197,10 +197,11 @@ class ContentRight extends React.Component {
         var connectDiv = document.getElementById("detailedDiv")
         */
         // run a normal fetch GET call to retrieve our data
-        fetch('/api', {
+        fetch('/', {
            method: 'GET',
            async: true,
            port: 3000,
+           mode: 'no-cors',
            headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',
