@@ -197,7 +197,7 @@ class ContentRight extends React.Component {
         var connectDiv = document.getElementById("detailedDiv")
         */
         // run a normal fetch GET call to retrieve our data
-        fetch('/', {
+        fetch('http://jeherringer.github.io/colorSwatchTest/', {
            method: 'GET',
            async: true,
            port: 3000,
