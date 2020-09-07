@@ -34,7 +34,9 @@ app.listen(port, () => {
 
 app.use(express.static(path.join(__dirname, '../build')));
 
-// mongoose connection
+// an api path to recieve JSON data of the colors
+app.get('/api', cors(), (req, res) => {
+    // mongoose connection
 const uri = process.env.MONGODB_LINK_URI;
 mongoose.connect(uri, {
   useNewUrlParser: true,
@@ -43,10 +45,8 @@ mongoose.connect(uri, {
 .then(() => {
   console.log("MongoDB Connected…")
 })
-.catch(err => console.log(err))
 
-// an api path to recieve JSON data of the colors
-app.get('/api', cors(), (req, res) => {
+.catch(err => console.log(err))
     colorSwatch.find({  })
         .then((data) => {
             res.json(data);
