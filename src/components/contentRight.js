@@ -201,7 +201,7 @@ class ContentRight extends React.Component {
            method: 'GET',
            async: true,
            port: 3000,
-           mode: "no-cors"
+           mode: "cors"
         }).then(res => res.text())
             .then(text => {
                console.log(text) 
