@@ -197,13 +197,13 @@ class ContentRight extends React.Component {
         var connectDiv = document.getElementById("detailedDiv")
         */
         // run a normal fetch GET call to retrieve our data
-        fetch('https://average-insect-38.loca.lt/api', {
+        fetch('https://fat-pug-91.loca.lt/api', {
            method: 'GET',
            async: true,
            port: 3000,
-        }).then(res => res.text())
-            .then(text => {
-               console.log(text) 
+        }).then(res => res.json())
+            .then(json => {
+               console.log(json) 
                /*
                 // going to loop through our data and add what we need to an empty array
                 for (let i = 0; i < 100; i++) {
