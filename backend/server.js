@@ -2,6 +2,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const path = require('path');
 require('dotenv').config();
 // set up express and our port
 const app = express();
@@ -41,7 +42,11 @@ mongoose.connect(uri, {
 })
 .catch(err => console.log(err))
 
-app.use(express.static('../src/index.js'));
+app.use(express.static(path.join(__dirname, '../build')));
+
+app.get('*', (req,res) =>{
+    res.sendFile(path.join(__dirname+'../build/index.html'));
+});
 
 // an api path to recieve JSON data of the colors
 app.get('/api', cors(), (req, res) => {
