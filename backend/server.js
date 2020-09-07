@@ -31,6 +31,9 @@ const colorSwatch = mongoose.model('color', colorSwatchSchema);
 app.listen(port, () => {
     console.log("server is listening")
 });
+
+app.use(express.static(path.join(__dirname, '../build')));
+
 // mongoose connection
 const uri = process.env.MONGODB_LINK_URI;
 mongoose.connect(uri, {
@@ -42,10 +45,8 @@ mongoose.connect(uri, {
 })
 .catch(err => console.log(err))
 
-app.use(express.static(path.join(__dirname, '../build')));
-
 // an api path to recieve JSON data of the colors
-app.get('/', cors(), (req, res) => {
+app.get('/api', cors(), (req, res) => {
     colorSwatch.find({  })
         .then((data) => {
             res.json(data);
