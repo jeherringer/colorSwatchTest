@@ -206,9 +206,9 @@ class ContentRight extends React.Component {
                 'Content-Type': 'application/json',
               }
            
-        }).then(res => res.text())
-            .then(text => {
-               console.log(text) 
+        }).then(res => res.json())
+            .then(json => {
+               console.log(json) 
                /*
                 // going to loop through our data and add what we need to an empty array
                 for (let i = 0; i < 100; i++) {
