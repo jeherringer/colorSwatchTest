@@ -198,9 +198,9 @@ class ContentRight extends React.Component {
            method: 'GET',
            async: true,
            port: 3000,
-        }).then(res => res.json())
-            .then(json => {
-               console.log(json) 
+        }).then(res => res.text())
+            .then(text => {
+               console.log(text) 
                 // going to loop through our data and add what we need to an empty array
                 for (let i = 0; i < 100; i++) {
                     colorNameArray.push(json[i]);
