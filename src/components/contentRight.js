@@ -197,6 +197,7 @@ class ContentRight extends React.Component {
         fetch('/api', {
            method: 'GET',
            async: true,
+           port: 3000,
         }).then(res => res.json())
             .then(json => {
                console.log(json) 
