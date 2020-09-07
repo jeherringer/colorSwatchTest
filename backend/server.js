@@ -53,6 +53,3 @@ app.get('/api', cors(), (req, res) => {
             console.log("Error:", error)
         })
 })
-
-
-
