@@ -194,7 +194,7 @@ class ContentRight extends React.Component {
         var cardDiv = document.getElementById("cardDiv");
         var connectDiv = document.getElementById("detailedDiv")
         // run a normal fetch GET call to retrieve our data
-        fetch('http//:jeherringer.github.io/colorSwatchTest/api', {
+        fetch('/api', {
            method: 'GET',
            async: true,
         }).then(res => res.json())
