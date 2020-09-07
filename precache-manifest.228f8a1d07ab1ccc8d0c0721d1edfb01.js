@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ef5469692af922fbb201fcc35807d07",
+    "revision": "ef3c2fb239edea5a3f4394b45b645400",
     "url": "/colorSwatchTest/index.html"
   },
   {
-    "revision": "268b76df9cf3a09b1fe7",
+    "revision": "26b3b6225ba9e57c1118",
     "url": "/colorSwatchTest/static/css/main.c46ef3c2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/colorSwatchTest/static/js/2.d17bb8cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "268b76df9cf3a09b1fe7",
-    "url": "/colorSwatchTest/static/js/main.3e8e0670.chunk.js"
+    "revision": "26b3b6225ba9e57c1118",
+    "url": "/colorSwatchTest/static/js/main.308ff59a.chunk.js"
   },
   {
     "revision": "1908d538bb3b03c67fa7",
