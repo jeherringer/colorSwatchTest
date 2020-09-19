@@ -19,3 +19,7 @@ I opted to use styled-components because I really like how it works with React c
 ## Future optimization
 
 There is a lot of room to actually include more functionality as I have laid almost all of the ground work for it. Using database calls with the structure of my database makes it really easy to target certain properties of the data, for instance; getting all of the color groups (which I just referred to HTML basics for), searching the name of a certain color, searching by hex code, filtering by any number of properties, and much more. 
+
+## Deployed
+
+The site is deployed on heroku at the following link: https://colorwatchproject.herokuapp.com/
